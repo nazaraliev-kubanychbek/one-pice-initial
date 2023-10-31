@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #171717;
+    font-family: Montserrat;
+    color: #FFF;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+    padding: 0 10px;
+}
+
+.header {
+    padding: 16px 34px 0 34px;
+    display: flex;
+    column-gap: 74px;
+}
+
+.header-title {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+.character{
+    padding-top: 74px;
+    margin: 100px 0;
+}
+
+.character-title{
+    font-size: 96px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.character-text{
+    margin-top: 52px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.character-img{
+    width: 100%;
+}
+
+.character-luffy{
+    position: relative;
+}
+.luffy-hat{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.luffy-text{
+    margin-top: 110px;
+}
+
+.sanji-img{
+    margin-top: 190px;
+}
